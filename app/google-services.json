@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "41501042028",
+    "project_id": "finalproject-ageplue",
+    "storage_bucket": "finalproject-ageplue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41501042028:android:33ddddefe6d9b1028b3f49",
+        "android_client_info": {
+          "package_name": "com.example.finalproject_ageplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41501042028-s5rlco0s4m9f027mqv66bo3b553b03ab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finalproject_ageplus",
+            "certificate_hash": "de2677030014198104853e87f9d55a890e6fa078"
+          }
+        },
+        {
+          "client_id": "41501042028-nu8bugfpn9is55bf5j6ima88hq0rhel2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJkBkRYrFqR8FswCtCTJd-yT6FJQfMa78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41501042028-nu8bugfpn9is55bf5j6ima88hq0rhel2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

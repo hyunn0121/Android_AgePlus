@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- 메뉴에 들어갈 것들을 작성 (메뉴에 들어갈 것을 따로 만들어 놓음 (메뉴와 액티비티를 연결 해줘야 함) -->
+    <item
+        android:id="@+id/menu_help"
+        android:title="help"
+        android:icon="@drawable/help_icon"
+        app:showAsAction="always" /> <!-- 공간이 있건 없건 해당 메뉴인 돋보기 아이콘이 항상 보이도록 하겠다 -->
+        <!-- 서치뷰를 사용하기 위해서 app:actionViewClass="androidx.appcompat.widget.SearchView"를 추가해서 제공되는 것을 이용
+
+            <item
+        android:id="@+id/menu_search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_help"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />-->
+</menu>

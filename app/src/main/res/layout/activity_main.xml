@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar"
+                style="@style/Widget.MaterialComponents.Toolbar.Primary" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:text="Age Plus!"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:textColor="#669900"/>
+        <!-- 색상 후보 : #FFCCCC(핑크) 고민중 ... -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시니어들을 위한 구인구직 앱"
+            android:textSize="17dp" />
+        <!-- 색상 고민 중 ...-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!--
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_find"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="#336600"
+                android:text="일자리\n둘러보기"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp" />
+                -->
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_auth"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@drawable/button_round"
+                android:text="로그인 및 회원가입"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp" />
+
+            <!-- 버튼 2개 색상 스타일에 맞게 변경하기 !-->
+        </LinearLayout>
+
+        <!--
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/checkbox_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="자동 로그인하기" />
+
+        </LinearLayout>
+        -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/friends"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/main_drawer"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:gravity="center"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/menu_navigation" />
+        -->
+
+</LinearLayout>
+
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:gravity="center"-->
+<!--    tools:context=".MainActivity">-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="200dp"-->
+<!--        android:text="Age Plus!"-->
+<!--        android:textSize="60dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="#669900"/>-->
+<!--        &lt;!&ndash; 색상 후보 : #FFCCCC(핑크) 고민중 ... &ndash;&gt;-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="당신의 찬란한 내일을 위한 시니어 구인구직 앱"-->
+<!--        android:textSize="17dp" />-->
+<!--        &lt;!&ndash; 색상 고민 중 ...&ndash;&gt;-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal" >-->
+
+<!--        &lt;!&ndash;-->
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/button_find"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:background="#336600"-->
+<!--            android:text="일자리\n둘러보기"-->
+<!--            android:textSize="25dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_marginLeft="10dp" />-->
+<!--            &ndash;&gt;-->
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/button_auth"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="20dp"-->
+<!--            android:background="#336600"-->
+<!--            android:text="로그인 및 회원가입"-->
+<!--            android:textSize="25dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_marginLeft="10dp" />-->
+
+<!--        &lt;!&ndash; 버튼 2개 색상 스타일에 맞게 변경하기 !&ndash;&gt;-->
+<!--    </LinearLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" >-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/friends"-->
+<!--            android:layout_alignParentBottom="true"/>-->
+<!--    </RelativeLayout>-->
+<!--</LinearLayout>-->

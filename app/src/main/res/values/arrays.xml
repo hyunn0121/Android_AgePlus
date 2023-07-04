@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_color">
+        <item>분홍</item>
+        <item>보라</item>
+        <item>녹색</item>
+        <item>노랑</item>
+        <item>검정</item>
+        <item>하양</item>
+    </string-array>
+    <string-array name="my_color_values">
+        <item>#FF9999</item>
+        <item>#9999FF</item>
+        <item>#336600</item>
+        <item>#FFE222</item>
+        <item>#000000</item>
+        <item>#FFFFFF</item>
+    </string-array>
+
+    <string-array name="my_size">
+        <item>작게</item>
+        <item>중간</item>
+        <item>크게</item>
+    </string-array>
+    <string-array name="my_size_values">
+        <item>10dp</item>
+        <item>20dp</item>
+        <item>30dp</item>
+    </string-array>
+</resources>

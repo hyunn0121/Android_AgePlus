@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AgePlus</string>
+    <string name="drawer_opened">Opened Drawer</string>
+    <string name="drawer_closed">Closed Drawer</string>
+    <string name="recrtTitle">일자리명 : %1$s</string>
+    <string name="workPlcNm">위치 : %1$s</string>
+    <string name="date">기한 : %1$s ~ %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
